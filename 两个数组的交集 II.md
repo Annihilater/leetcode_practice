@@ -132,6 +132,43 @@ class Solution:
 ```
 
 
+### 方法三：也是字典方法
+#### 执行时间：56ms
+1. 先将列表1转换成字典，元素转换为键，元素出现的次数转换为值；
+2. 再循环列表2的元素，确认该元素是否在字典中，
+    - 如果在字典中，则将该元素添加到结果列表中，并且将字典中元素的值减1，当字典中元素的值为0的时候，则删除此键值对，
+    - 如果不在字典中则继续循环。
+
+```python
+class Solution:
+    def intersect(self, nums1, nums2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: List[int]
+        """
+
+        nums3 = []      # 定义交集列表为空
+
+        dict_nums1 = {}                 # 新建空字典
+        for i in nums1:
+            if i in dict_nums1:         # 将列表1中的元素添加到字典中，元素出现的次数转换为对应键值对的值
+                dict_nums1[i] += 1      
+            else:
+                dict_nums1[i] = 1
+        
+        for i in nums2:                 # 循环列表2中的元素
+            if i in dict_nums1:         
+                nums3.append(i)         # 如果该元素在字典中，则将其添加到结果列表
+                dict_nums1[i] -= 1      # 并将字典中该元素对应的值减1
+                if dict_nums1[i] == 0:  # 值减到0时，删除该键值对
+                    dict_nums1.pop(i)
+        return nums3
+                    
+        
+```
+
+
 
 
 
