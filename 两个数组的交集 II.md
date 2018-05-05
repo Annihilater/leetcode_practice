@@ -95,6 +95,41 @@ class Solution:
         
 ```
 
+#### 写法二（比写法一更简洁）
+
+```python
+class Solution:
+    def intersect(self, nums1, nums2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: List[int]
+        """
+        nums3 = []      # 定义结果列表
+        nums1.sort()    # 列表1排序
+        nums2.sort()    # 列表2排序
+        l1 = len(nums1)     # 定义l1为列表1长度
+        l2 = len(nums2)     # 定义l2位列表2长度
+        
+        i = 0 
+        j = 0
+        
+        if l1 == 0 or l2 == 0:
+            return nums3
+        else:
+            while (i < l1 and j < l2):
+                if nums1[i] > nums2[j]:
+                    j += 1
+                elif nums1[i] < nums2[j]:
+                    i += 1
+                else:
+                    nums3.append(nums1[i])
+                    i += 1
+                    j += 1
+            return nums3
+                    
+        
+```
 
 
 
