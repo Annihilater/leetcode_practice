@@ -2,7 +2,7 @@
 This is my leetcode practice.
 
 ## 已更新
-[toc]
+
 ### 算法
 #### 初级算法
 ##### 数组
