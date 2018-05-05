@@ -49,6 +49,51 @@ class Solution:
         return nums3
 ```
 
+### 方法二：排序-按索引比较元素
+#### 执行时间：56ms
+1. 先将两个列表分别排序；
+2. 再按照索引一对一比较元素
+    - 如果处于相同索引位置上的元素相等，则将该元素添加到结果列表，两个索引数同时+1
+    - 如果处于相同索引位置上的元素不相等，则将较小元素的索引+1，再次比较，直到循环完其中一个列表
+#### 写法一
+```python
+class Solution:
+    def intersect(self, nums1, nums2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: List[int]
+        """
+        nums3 = []          # 定义返回的交集
+        nums1.sort()        # 列表1排序
+        nums2.sort()        # 列表2排序
+        l1 = len(nums1)     # 定义l1为列表1长度
+        l2 = len(nums2)     # 定义l2位列表2长度
+        
+        i = 0       # 定义列表1的索引起始位
+        j = 0       # 定义列表2的索引起始位
+        
+        if l1 == 0 or l2 == 0:      # 考虑存在空集的情况
+            return nums3            # 交集为空
+        else:
+            while i < l1:                       # 若超出列表1长度则停止循环
+                if nums1[i] == nums2[j]:        # 比较相同索引位上的元素是否相等
+                    nums3.append(nums1[i])
+                    i += 1
+                    j += 1
+                    if j >= l2:                 # 若超出列表2长度则停止循环
+                        return nums3
+                else:
+                    if nums1[i] > nums2[j]:     # 若不相等则，较小元素的索引位+1
+                        j += 1
+                        if j >= l2:
+                            return nums3
+                    else:
+                        i += 1
+            return nums3
+                    
+        
+```
 
 
 
