@@ -16,4 +16,5 @@ This is my leetcode practice.
 
 - [两个数组的交集 II](https://github.com/Annihilater/leetcode_practice/blob/master/%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.md)
 
+- [加一](https://github.com/Annihilater/leetcode_practice/blob/master/%E5%8A%A0%E4%B8%80.md)
 
