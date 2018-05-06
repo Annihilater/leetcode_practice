@@ -18,3 +18,6 @@ This is my leetcode practice.
 
 - [加一](https://github.com/Annihilater/leetcode_practice/blob/master/%E5%8A%A0%E4%B8%80.md)
 
+- [移动零](https://github.com/Annihilater/leetcode_practice/blob/master/%E7%A7%BB%E5%8A%A8%E9%9B%B6.md)
+
+
