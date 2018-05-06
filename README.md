@@ -20,4 +20,5 @@ This is my leetcode practice.
 
 - [移动零](https://github.com/Annihilater/leetcode_practice/blob/master/%E7%A7%BB%E5%8A%A8%E9%9B%B6.md)
 
+- [两数之和](https://github.com/Annihilater/leetcode_practice/blob/master/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md)
 
