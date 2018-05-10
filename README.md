@@ -22,3 +22,5 @@ This is my leetcode practice.
 
 - [两数之和](https://github.com/Annihilater/leetcode_practice/blob/master/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md)
 
+- [有效的数独](https://github.com/Annihilater/leetcode_practice/blob/master/%E6%9C%89%E6%95%88%E7%9A%84%E6%95%B0%E7%8B%AC.md)
+
