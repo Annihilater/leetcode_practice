@@ -24,3 +24,6 @@ This is my leetcode practice.
 
 - [有效的数独](https://github.com/Annihilater/leetcode_practice/blob/master/%E6%9C%89%E6%95%88%E7%9A%84%E6%95%B0%E7%8B%AC.md)
 
+- [旋转图像](https://github.com/Annihilater/leetcode_practice/blob/master/%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F.md)
+
+  
