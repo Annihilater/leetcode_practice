@@ -26,4 +26,6 @@ This is my leetcode practice.
 
 - [旋转图像](https://github.com/Annihilater/leetcode_practice/blob/master/%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F.md)
 
+- [买卖股票的最佳时机](https://github.com/Annihilater/leetcode_practice/blob/master/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.md)
+
   
