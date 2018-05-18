@@ -28,5 +28,9 @@ This is my leetcode practice.
 
 - [买卖股票的最佳时机](https://github.com/Annihilater/leetcode_practice/blob/master/%E6%95%B0%E7%BB%84/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.md)
 
+- [二叉树的最大深度](https://github.com/Annihilater/leetcode_practice/blob/master/%E6%A0%91/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md)
+
+  
+
   
 
