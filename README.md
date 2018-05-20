@@ -1,5 +1,5 @@
 # leetcode_practice
-刷leetcode中国区记录。
+刷leetcode中国区记录，本记录均为 `python3` 解法。
 
 ## 已更新
 
