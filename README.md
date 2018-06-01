@@ -53,6 +53,8 @@
 
   - [反转字符串](https://github.com/Annihilater/leetcode_practice/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md)
 
+  - [颠倒整数](https://github.com/Annihilater/leetcode_practice/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E9%A2%A0%E5%80%92%E6%95%B4%E6%95%B0.md)
+
     
 
   
