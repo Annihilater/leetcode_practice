@@ -58,4 +58,5 @@
 
   [93.复原 IP 地址](https://github.com/Annihilater/leetcode_practice/blob/master/%E5%A4%8D%E5%8E%9F%20ip%20%E5%9C%B0%E5%9D%80.md)
 
+  [306.累加数](https://github.com/Annihilater/leetcode_practice/blob/master/306.%20%E7%B4%AF%E5%8A%A0%E6%95%B0.md)
 
