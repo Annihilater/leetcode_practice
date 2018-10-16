@@ -60,3 +60,5 @@
 
   [306.累加数](https://github.com/Annihilater/leetcode_practice/blob/master/306.%20%E7%B4%AF%E5%8A%A0%E6%95%B0.md)
 
+  [842. 将数组拆分成斐波那契序列.md](https://github.com/Annihilater/leetcode_practice/blob/master/842.%20%E5%B0%86%E6%95%B0%E7%BB%84%E6%8B%86%E5%88%86%E6%88%90%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%BA%8F%E5%88%97.md)
+
