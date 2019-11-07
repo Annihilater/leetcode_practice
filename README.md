@@ -58,7 +58,9 @@
 
   [93.复原 IP 地址](https://github.com/Annihilater/leetcode_practice/blob/master/93.%20%E5%A4%8D%E5%8E%9F%20ip%20%E5%9C%B0%E5%9D%80.md)
 
-  [306.累加数](https://github.com/Annihilater/leetcode_practice/blob/master/306.%20%E7%B4%AF%E5%8A%A0%E6%95%B0.md)
+  [155.最小栈]([https://github.com/Annihilater/leetcode_practice/blob/master/155.%E6%9C%80%E5%B0%8F%E6%A0%88.py](https://github.com/Annihilater/leetcode_practice/blob/master/155.最小栈.py))
 
+  [306.累加数](https://github.com/Annihilater/leetcode_practice/blob/master/306.%20%E7%B4%AF%E5%8A%A0%E6%95%B0.md)
+  
   [842. 将数组拆分成斐波那契序列.md](https://github.com/Annihilater/leetcode_practice/blob/master/842.%20%E5%B0%86%E6%95%B0%E7%BB%84%E6%8B%86%E5%88%86%E6%88%90%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%BA%8F%E5%88%97.md)
 
